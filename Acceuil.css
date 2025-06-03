@@ -1,0 +1,70 @@
+
+.bonobo{
+    text-align: center;
+    font-size: 1.5cm;
+    color: aliceblue;
+  }
+  body{
+    background: linear-gradient(90deg, #000000, #810000);
+  }
+  .page2{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    background: linear-gradient(90deg, #000000, #ff0000); 
+  
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .page1:hover {
+    box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+  }
+
+  .page2:hover {
+    box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+  }
+
+  .page3:hover {
+    box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+  }
+  button{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    background: linear-gradient(90deg, #000000, #ff0000); 
+  
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  h2{
+    color: #ffffff;
+  }
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #000;
+    color: #fff;
+    font-size: 0.8rem;
+}
+nav {
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 5px;
+  box-shadow: 0 5px 30 px 0 rgba(22, 32, 220, 0.37);
+  padding-inline-end: 35px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+  
+

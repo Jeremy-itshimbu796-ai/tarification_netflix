@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('image_netflix.jpg') no-repeat center center/cover;
+    block-size: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(30, 28, 28, 0.75);
+    padding: 60px 68px 40px;
+    border-radius: 4px;
+    inline-size: 100%;
+    max-inline-size: 450px;
+    color: #fff;
+}
+
+
+.logo {
+    inline-size: 150px;
+    margin-block-end: 40px;
+}
+
+
+.login-form h1 {
+    margin-block-end: 28px;
+    font-size: 32px;
+}
+
+.login-form input {
+    inline-size: 100%;
+    padding: 16px;
+    margin-block-end: 16px;
+    background: #333;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.login-form button {
+    inline-size: 100%;
+    padding: 16px;
+    background: #e50914;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-block-start: 24px;
+}
+
+.login-form .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin-block-start: 16px;
+}
+
+.login-form .options a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.login-form .signup {
+    margin-block-start: 24px;
+    font-size: 16px;
+}
+
+.login-form .signup a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    margin-block-start: 24px;
+    font-size: 13px;
+    color: #8c8c8c;
+}
+
+footer a {
+    color: #0071eb;
+    text-decoration: none;
+}
+#homebutton {
+        position: absolute;
+        inset-block-start: 20px;
+        inset-inline-start: 20px;
+        z-index: 1000;
+        padding: 10px 15px;
+        color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background: linear-gradient(90deg, #000000, #ff0000); 
+      }

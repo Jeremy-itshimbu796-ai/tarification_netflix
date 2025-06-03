@@ -1,0 +1,81 @@
+h1{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+body{
+    /*background-color: rgb(184, 184, 184);*/
+    background: linear-gradient(90deg, #000000, #ff0000);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.5cm;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+    margin-block-start: 30px;
+}
+
+.card {
+    background-color: aliceblue;
+    border-radius: 10px;
+    inline-size: 250px;
+    padding: 30px 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    margin: 50px;
+}
+
+.card h2{
+    font-size: 0.55cm;
+    color: rgb(0, 0, 0);
+}
+
+.card ul{
+    list-style-type: none;
+}
+.price {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  background: linear-gradient(90deg, #000000, #ff0000);
+}
+
+.but {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  background: linear-gradient(90deg, #000000, #ff0000); 
+
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.but:hover {
+  box-shadow: 0 0 10px #000000, 0 0 20px #ff0000;
+}
+button{
+  font-size: 28px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  background: linear-gradient(90deg, #000000, #ff0000); 
+
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.page1:hover {
+  box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+}
